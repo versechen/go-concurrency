@@ -1,0 +1,6 @@
+{
+    "go.buildTags": "",
+    "go.toolsEnvVars": {
+        "GOFLAGS": ""
+    }
+}
