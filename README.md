@@ -1,6 +1,13 @@
 # go-concurrency
 learning go concurrency
 
+## [Goroutine]()
+轻量级线程
+### 特点
+1. 创建开销极低（几 KB 栈空间，按需增长）
+2. 调度由 Go runtime 完成（M:N 调度模型）
+3. 适合大规模并发场景
+
 ## [Once](./once.go)
 全局只执行一次
 
@@ -11,6 +18,10 @@ learning go concurrency
 2. 超时
 3. 传递元素
 4. 链路跟踪
+
+## [select]()
+多路复用
+
 
 ## 运行方式
 
